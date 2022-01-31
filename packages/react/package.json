@@ -37,7 +37,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@valiot/matomo-tracker-js": "^0.6.1"
+    "@valiot/matomo-tracker-js": "^0.6.1",
+    "registry": "https://npm.pkg.github.com/"
   },
   "peerDependencies": {
     "react": ">= 16.8.0"

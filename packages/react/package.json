@@ -1,6 +1,6 @@
 {
   "name": "@valiot/matomo-tracker-react",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "Matomo tracker for react projects",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -37,7 +37,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@valiot/matomo-tracker-js": "^0.6.1",
+    "@valiot/matomo-tracker-js": "^0.6.2",
     "registry": "https://npm.pkg.github.com/"
   },
   "peerDependencies": {

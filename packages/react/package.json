@@ -1,6 +1,6 @@
 {
-  "name": "@datapunt/matomo-tracker-react",
-  "version": "0.5.1",
+  "name": "@valiot/matomo-tracker-react",
+  "version": "0.6.3",
   "description": "Matomo tracker for react projects",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -9,7 +9,7 @@
   "homepage": "https://github.com/Amsterdam/matomo-tracker#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Amsterdam/matomo-tracker.git",
+    "url": "git+https://github.com/valiot/matomo-tracker.git",
     "directory": "packages/react"
   },
   "bugs": {
@@ -34,10 +34,11 @@
     "react"
   ],
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
   },
   "dependencies": {
-    "@datapunt/matomo-tracker-js": "^0.5.1"
+    "@valiot/matomo-tracker-js": "^0.6.3"
   },
   "peerDependencies": {
     "react": ">= 16.8.0"

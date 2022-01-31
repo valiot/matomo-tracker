@@ -1,5 +1,10 @@
 {
   "useWorkspaces": true,
   "npmClient": "npm",
-  "version": "0.5.1"
+  "version": "0.6.3",
+  "command": {
+    "publish": {
+      "registry": "https://npm.pkg.github.com"
+    }
+  }
 }

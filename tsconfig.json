@@ -6,7 +6,7 @@
     "target": "es5",
     "baseUrl": ".",
     "paths": {
-      "@datapunt/*": ["packages/*/src"]
+      "@valiot/*": ["packages/*/src"]
     },
     "composite": true,
     "sourceMap": true,

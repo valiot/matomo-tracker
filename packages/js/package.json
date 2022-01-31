@@ -1,6 +1,6 @@
 {
-  "name": "@datapunt/matomo-tracker-js",
-  "version": "0.5.1",
+  "name": "@valiot/matomo-tracker-js",
+  "version": "0.6.3",
   "description": "Matomo tracker for frontend projects",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -9,7 +9,7 @@
   "homepage": "https://github.com/Amsterdam/matomo-tracker#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Amsterdam/matomo-tracker.git",
+    "url": "git+https://github.com/valiot/matomo-tracker.git",
     "directory": "packages/js"
   },
   "bugs": {
@@ -34,7 +34,8 @@
     "client"
   ],
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
   },
   "gitHead": "cc08cc56b79af67a93de78632dc98b9ef2588871"
 }

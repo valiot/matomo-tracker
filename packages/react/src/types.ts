@@ -1,4 +1,4 @@
-import MatomoTracker, { types } from '@datapunt/matomo-tracker-js'
+import MatomoTracker, { types } from '@valiot/matomo-tracker-js'
 
 export interface MatomoInstance {
   trackEvent: MatomoTracker['trackEvent']

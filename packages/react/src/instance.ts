@@ -1,4 +1,4 @@
-import MatomoTracker from '@datapunt/matomo-tracker-js'
+import MatomoTracker from '@valiot/matomo-tracker-js'
 import { InstanceParams } from './types'
 
 function createInstance(params: InstanceParams): MatomoTracker {
